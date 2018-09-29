@@ -5,4 +5,7 @@ A tool to help resource allocation in disaster, empower first responders, hospit
 # Getting started
 
 > npm install
+
 > npm start
+
+  View in browser at: http://localhost:3000

@@ -4,6 +4,8 @@ A tool to help resource allocation in disaster, empower first responders, hospit
 
 # Getting started
 
+> cd red-bridge
+
 > npm install
 
 > npm start

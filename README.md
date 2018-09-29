@@ -21,3 +21,8 @@ A tool to help resource allocation in disaster, empower first responders, hospit
   <iframe width="960" height="600" src="https://maphub.net/embed/36958?panel=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
                 <p>Your browser does not support iframes.</p>
   </iframe>
+
+
+# Presentation:
+
+  [Link](https://youtu.be/4-9PFC-74WY)

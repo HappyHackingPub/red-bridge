@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!--link(rel="stylesheet",href="css/bootstrap.min.css")-->
+    <!--	!-- Custom styles for this template ---->
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+    <script>
+      function myFunction(id) {
+          var x = document.getElementById("myDiv-"+id);
+          if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }
+      }
+  </script>
+  </head>
+  <body data-spy="scroll" data-target=".scrollspy" 
+  style="background-color:black;background-repeat: no-repeat;background-size: auto;background-size: 100% 100%;">
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Red Bridge</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li> <a href="/">Home</a></li>
+                  <li class="active"><a href="/features">Features</a></li>
+                  <li><a href="/contact">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="inner cover">
+            <h1 class="cover-heading">Multi-source Input Data Point.</h1>
+            <p class="lead">Red Bridge connect to all possible social media data including: Twitter, Facebook, Crisis Data, Search Logs, Disaster Images.</p>
+
+        <select size="5" name="lstStates" multiple="multiple" id="lstStates" style="background-color:black!important;color:white!important;">
+            <option value="TT">Alabama  </option>
+            <option value="TT">Alaska  </option>
+            <option value="TT">Arizona  </option>
+            <option value="TT">Arkansas  </option>
+            <option value="TT"> California  </option>
+            <option value="TT"> Colorado  </option>
+            <option value="TT"> Connecticut  </option>
+            <option value="TT">  Delaware  </option>
+            <option value="TT">  Florida  </option>
+            <option value="TT">  Georgia  </option>
+            <option value="TT">Hawaii  </option>
+            <option value="TT">Idaho  </option>
+            <option value="TT">Illinois Indiana  </option>
+            <option value="TT"> Iowa  </option>
+            <option value="TT">Kansas  </option>
+            <option value="TT"> Kentucky  </option>
+            <option value="TT"> Louisiana  </option>
+            <option value="TT"> Maine  </option>
+            <option value="TT"> Maryland  </option>
+            <option value="TT"> Massachusetts  </option>
+            <option value="TT">  Michigan  </option>
+            <option value="TT"> Minnesota  </option>
+            <option value="TT">Mississippi  </option>
+            <option value="TT"> Missouri  </option>
+            <option value="TT"> Montana Nebraska  </option>
+            <option value="TT"> Nevada  </option>
+            <option value="TT"> New Hampshire  </option>
+            <option value="TT"> New Jersey  </option>
+            <option value="TT">  New Mexico  </option>
+            <option value="TT">New York  </option>
+            <option value="TT"> North Carolina  </option>
+            <option value="TT"> North Dakota  </option>
+            <option value="TT"> Ohio  </option>
+            <option value="TT"> Oklahoma  </option>
+            <option value="TT">Oregon  </option>
+            <option value="TT"> Pennsylvania  </option>
+            <option value="TT"> Rhode Island  </option>
+            <option value="TT"> South Carolina  </option>
+            <option value="TT"> South Dakota  </option>
+            <option value="TT">Tennessee  </option>
+            <option value="TT">Texas  </option>
+            <option value="TT">Utah  </option>
+            <option value="TT"> Vermont  </option>
+            <option value="TT"> Virginia  </option>
+            <option value="TT"></option>Washington  </option>
+            <option value="TT"></option>West Virginia  </option>
+            <option value="TT"></option>Wisconsin  </option>
+            <option value="TT"></option>Wyoming </option>
+        </select>
+           <p class="lead"></p><a class="btn btn-lg btn-default" onclick="myFunction(1)" href="javascript:void(0);">Next</button></a>
+           <div id="myDiv-1" style="display:none;">
+              
+              <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
+                <p>Your browser does not support iframes.</p>
+              </iframe> -->
+              <br/>
+              <br/>
+              <image style="width:80%;" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/04/Twitter-data-730x365.jpg"></image>
+
+              
+           </div>
+
+
+          <h1 class="cover-heading">Natural Language Understanding</h1>
+          <p class="lead"></p>
+          <p class="lead"></p><a class="btn btn-lg btn-default" onclick="myFunction(2)" href="javascript:void(0);">Next</button></a>
+          <div id="myDiv-2" style="display:none;">
+              <br/>
+              <br/>
+              <image style="width:80%;" src="img/NLP1.jpg"></image>
+              <br/>
+              <br/>
+              <image style="width:80%;" src="img/NLP2.jpg"></image>
+              <br/>
+              <br/>
+              <image style="width:80%;" src="img/NLP3.jpg"></image>
+
+          </div>
+
+          <h1 class="cover-heading">Watson Natural Language Translator</h1>
+          <p class="lead"></p>
+          <p class="lead"></p><a class="btn btn-lg btn-default" onclick="myFunction(3)" href="javascript:void(0);">Next</button></a>
+          <div id="myDiv-3" style="display:none;">
+              <br/>
+              <br/>
+              <image style="width:80%;" src="img/translator.jpg"></image>
+
+          </div>
+
+
+          <h1 class="cover-heading">Watson Visual Recognition</h1>
+          <p class="lead"></p>
+          <p class="lead"></p><a class="btn btn-lg btn-default" onclick="myFunction(4)" href="javascript:void(0);">Next</button></a>
+          <div id="myDiv-4" style="display:none;">
+
+              <br/>
+              <br/>
+              <image style="width:80%;" src="img/visual.jpg"></image>
+
+          </div>
+
+          <h1 class="cover-heading">Wisdom Of Crowd</h1>
+          <p class="lead">Crowsourding Crisis Mapper, a Real-time collaborative application for tagging streams of geospatial data, built on top of the Meteor Javascript platform. Built with the humanitarian goal of crisis mapping in mind.</p>
+          <p class="lead"></p><a class="btn btn-lg btn-default" onclick="myFunction(5)" href="javascript:void(0);">Next</button></a>
+          <div id="myDiv-5" style="display:none;">
+              Paper | Mao A, Mason W, Suri S, Watts DJ (2016) An Experimental Study of Team Size and Performance on a Complex Task. PLoS ONE 11(4): e0153048.
+              <br/>
+              Github | https://github.com/TurkServer/CrowdMapper
+              <br/>
+              <image style="width:80%;" src="http://share.gifyoutube.com/mLnMWR.gif"></image>
+          </div>
+
+          <h1 class="cover-heading">IoT Resources Tracker</h1>
+          <p class="lead">These Node-RED program flows implement an IoT Resource Asset Tracker that 
+            receives geolocation and environmental sensor data from a Particle Electron, 
+            stores that information in a Hyperledger Fabric blockchain and visualizes 
+            the routes of the IoT devices on a map / dashboard. 
+            It triggers alerts when environmental thresholds are exceeded.</p>
+          <p class="lead"></p><a class="btn btn-lg btn-default" onclick="myFunction(6)" href="javascript:void(0);">Next</button></a>
+          <div id="myDiv-6" style="display:none;">
+              <br/>
+              <br/>
+              <image style="width:80%;" src="https://raw.githubusercontent.com/johnwalicki/IoT-AssetTracking-Perishable-Network-Blockchain/master/Node-RED/screenshots/Node-RED-dashboard-AssetTracker-PR.png"></image>
+              <br/>
+              <br/>
+              <image style="width:80%;" src="https://raw.githubusercontent.com/johnwalicki/IoT-AssetTracking-Perishable-Network-Blockchain/master/Node-RED/screenshots/Node-RED-dashboard-AssetTracker-NJ.png"></image>
+          </div>
+          
+
+          <h1 class="cover-heading">Integrated Dashboard</h1>
+          <p class="lead"></p>
+          <p class="lead"></p><a class="btn btn-lg btn-default" onclick="myFunction(7)" href="javascript:void(0);">Next</button></a>
+          <div id="myDiv-7" style="display:none;">
+              <br/>
+              <br/>
+              <!-- <iframe width="768" height="576" src="https://maphub.net/embed/36958?panel=1" frameborder="0"></iframe> -->
+
+              <iframe width="960" height="600" src="https://maphub.net/embed/36958?panel=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
+                <p>Your browser does not support iframes.</p>
+              </iframe>
+          </div>
+
+        </div>
+          <div class="mastfoot">
+            <div class="inner">
+                <p>PowerBy <a href="https://www.ibm.com/cloud/">IBM Cloud and Watson API</a>, by <a href="https://twitter.com/kgao">@kgao </a>,<a href="https://twitter.com/jx2181">@jx2181</a>,<a href="https://twitter.com/fanymiles">@fanymiles</a>.</p> </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!--script(src="js/jquery.min.js")-->
+    <!--script(src="js/bootstrap.min.js")-->
+  </body>
+</html>
